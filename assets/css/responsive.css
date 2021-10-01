@@ -1,0 +1,142 @@
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+    .post-category a {
+        min-width: 80px;
+        padding: 3px 0px;
+    }
+    .post-author {
+        font-size: 15px;
+    }
+    .trending-article .post-category {
+        margin-right: 5px;
+        font-size: 15px;
+    }
+ }
+
+
+ 
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .feature .feature-single .text-box .title {
+        font-size: 25px;
+    }
+    .feature .right .feature-single .text-box .title {
+        font-size: 20px;
+    }
+    .trending-category .category a > img {
+        width: 35px;
+        height: 35px;
+    }
+    .trending-category .category a > .title {
+        font-size: 18px;
+        
+    }
+    .post-category a {
+        min-width: 80px;
+        padding: 3px 0px;
+    }
+    .post-author {
+        font-size: 13px;
+    }
+    .trending-article .post-category {
+        margin-right: 5px;
+        font-size: 14px;
+    }
+    .trending-article .trending-blog-post-title {
+        font-size: 16px;
+    }
+    .trending-post-thum img {
+        max-width: 130px;
+    }
+    .post-category a {
+        min-width: 70px;
+    }
+    .post-meta-left-side span {
+        position: relative;
+        padding-right: 5px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+ }
+
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .feature .feature-single .text-box .title {
+        font-size: 22px;
+    }
+    .feature .right .feature-single .text-box .title {
+        font-size: 18px;
+    }
+    .trending-category .category{
+        margin-bottom: 8px;
+    }
+    .post-category a {
+        min-width: 80px;
+        padding: 3px 0px;
+    }
+    .post-author {
+        font-size: 16px;
+    }
+    .trending-article .post-category {
+        margin-right: 5px;
+    }
+    .trending-article .trending-blog-post-title {
+        font-size: 16px;
+    }
+    .footer .logo-widget .copyright {
+        margin-bottom: 20px;
+    }
+    
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .feature .left .feature-single .image-box {
+        height: 300px;
+    }
+    .feature .right .feature-single .image-box {
+        height: 300px;
+    }
+    .trending-category .category{
+        margin-bottom: 8px;
+    }
+    .blog-row{
+        flex-direction: column-reverse;
+    }
+    .footer .logo-widget .copyright {
+        margin-bottom: 20px;
+    }
+   
+ }
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .feature .right .feature-single .text-box .title {
+        font-size: 22px;
+    }
+    .feature .feature-single .text-box .title {
+        font-size: 22px;
+    }
+    .feature .left .feature-single .image-box {
+        height: 300px;
+    }
+    .feature .right .feature-single .image-box {
+        height: 300px;
+    }
+    .trending-category .category{
+        margin-bottom: 8px;
+    }
+    .blog-row{
+        flex-direction: column-reverse;
+    }
+    .footer .logo-widget .copyright {
+        margin-bottom: 20px;
+    }
+ }
+
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
